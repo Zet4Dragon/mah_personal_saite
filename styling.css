@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Super Mario";
+    src: url("resources/Super Mario Maker Font.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Super Mario";
+	  color: white;
+    background-image: url("images/Silver_Grove.jpg");
+  	background-repeat: no-repeat;
+    background-attachment: fixed;
+    cursor: url(images/Clem_Cursor.png), default;
+}
+
+a {
+	cursor: url(images/Clem_Hand.png), pointer;
+}
+
+.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sidenav li {
+    float: left;
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.sidenav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.sidenav li:hover {
+    background-color: black;
+    color: black;
+}
+
+.main {
+    margin-top: 100px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.sub {
+    margin-top: 100px;
+    padding-left: 20px;
+}
+
+.ct {
+    width: 388;
+    height: 455;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+
+ul#horizontal-list li {
+		display: inline;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
